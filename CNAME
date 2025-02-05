@@ -1,1 +1,5 @@
-www.thr.com
+
+echo "www.thr.com" > CNAME
+git add CNAME
+git commit -m "Add CNAME file"
+git push
